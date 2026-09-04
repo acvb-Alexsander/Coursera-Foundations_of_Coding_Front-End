@@ -1,4 +1,4 @@
-﻿
+﻿using System;
 
 /*
  * bool isRaining = false;
@@ -30,7 +30,7 @@ int number = int.Parse(myVariable3);
 Console.WriteLine(number);
 Console.WriteLine(number.GetType());*/
 
-int num1 = 5;
+/*int num1 = 5;
 double num2 = 2.5;
 double result = num1 + num2;
 Console.WriteLine(result);
@@ -45,4 +45,14 @@ Console.WriteLine(piInt);
 string myString = "42";
 int myInt = int.Parse(myString);
 Console.WriteLine(myInt);
-Console.WriteLine(myInt.GetType());
+Console.WriteLine(myInt.GetType());*/
+
+/*Class1 executor = new Class1();
+Class2 sum = new Class2();
+int resultadoSoma = sum.sumNumbers(10, 15);
+//int resultadoSoma = executor.sum(5, 10);
+Console.WriteLine($"O resultado da soma é: {executor.sum(20, 10)}");
+Console.WriteLine($"O resultado da soma é: {resultadoSoma}");*/
+
+ProblemOne q1 = new ProblemOne();
+q1.praticeProblem(45);
